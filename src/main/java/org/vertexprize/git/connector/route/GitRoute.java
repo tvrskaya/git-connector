@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 
 /**
  *
- * @author HP
+ * @author Kirill_Romanovich
  */
 @Component
 public class GitRoute extends RouteBuilder {
