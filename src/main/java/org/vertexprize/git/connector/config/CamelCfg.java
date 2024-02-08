@@ -9,6 +9,7 @@ import org.apache.camel.CamelContext;
 import org.apache.camel.spring.boot.CamelContextConfiguration;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
@@ -29,7 +30,7 @@ public class CamelCfg {
 //        EventBus eventBus = new EventBus();
 //        return eventBus;
 //    }
-    // Фабрика бинов
+    // 
     @Autowired
     BeanFactory beanFactory;
 
