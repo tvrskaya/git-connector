@@ -4,10 +4,7 @@
  */
 package org.vertexprize.git.connector.components;
 
-import jakarta.servlet.http.HttpServletRequest;
-import static java.time.LocalDate.now;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
 
 /**
